@@ -1,0 +1,15 @@
+\contentsline {section}{\numberline {1}Introducción}{1}{}%
+\contentsline {section}{\numberline {2}Entregables}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Matlab}{1}{}%
+\contentsline {subsection}{\numberline {2.2}Arduino}{2}{}%
+\contentsline {section}{\numberline {3}Desarrollo}{2}{}%
+\contentsline {subsection}{\numberline {3.1}Planificación previa}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Catalogo de compra}{2}{}%
+\contentsline {subsection}{\numberline {3.3}Montaje}{3}{}%
+\contentsline {subsection}{\numberline {3.4}IHM matlab}{3}{}%
+\contentsline {subsection}{\numberline {3.5}Programa Arduino}{3}{}%
+\contentsline {subsubsection}{\numberline {3.5.1}Regulador PID}{3}{}%
+\contentsline {subsubsection}{\numberline {3.5.2}Comunicación}{3}{}%
+\contentsline {section}{\numberline {4}Conclusiones}{4}{}%
+\contentsline {subsection}{\numberline {4.1}Dificultades}{4}{}%
+\contentsline {subsection}{\numberline {4.2}Comentarios finales}{4}{}%
