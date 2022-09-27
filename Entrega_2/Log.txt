@@ -1,0 +1,1 @@
+https://es.mathworks.com/matlabcentral/answers/555832-how-to-configure-serialport-callback-in-app-designer
