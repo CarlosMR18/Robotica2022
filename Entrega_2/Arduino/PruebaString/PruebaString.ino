@@ -1,5 +1,6 @@
 #define PIN_LED 13
 #define DELAYCONST 1000
+
 char read()
 {
    return Serial.read();
@@ -24,10 +25,9 @@ void setup()
 
 void loop()
 {
-  char car;
-  if( Serial.available() > 0 ){
+  if(Serial.available() > 0 ){
+    String data = Serial.readString();
     flash();
-    car = read();
-    Serial.write(car);
+    Serial.println(data);
   }
 }

@@ -1,5 +1,6 @@
 #define PIN_LED 13
 #define DELAYCONST 1000
+
 char read()
 {
    return Serial.read();
@@ -16,6 +17,17 @@ void flash()
   }
 }
 
+int saludo()
+  {
+    if(Serial.available() > 0);
+      String data = Serial.readString();
+      if( data == "S0" ){
+        Serial.println("S1");
+        flash();
+        return 1;
+      }
+      else return 0;
+  }
 void setup()
 {
   Serial.begin(9600);
@@ -24,10 +36,6 @@ void setup()
 
 void loop()
 {
-  char car;
-  if( Serial.available() > 0 ){
-    flash();
-    car = read();
-    Serial.write(car);
-  }
+  if( saludo() == 1) 
+    digitalWrite(PIN_LED,HIGH); 
 }
