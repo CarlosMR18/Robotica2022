@@ -27,7 +27,10 @@ void loop()
 {
   if(Serial.available() > 0 ){
     String data = Serial.readString();
-    flash();
+    if( data.toInt() >= 0 ){
+      flash();
+    }
+   
     Serial.println(data);
   }
 }
